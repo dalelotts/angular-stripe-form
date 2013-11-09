@@ -1,0 +1,29 @@
+{
+  "name": "angular-stripe-form",
+  "version": "0.0.1",
+  "description": "This directive allows you to add a bootstrap modal form to create stripe credit card tokens.",
+  "author": "https://github.com/dalelotts/angular-stripe-form/graphs/contributors",
+  "license": "MIT",
+  "homepage": "http://dalelotts.github.io/angular-stripe-form",
+  "main": "./src/js/stripe-form.js",
+  "ignore": [
+    "**/.*",
+    "screenshots",
+    "node_modules",
+    "bower_components",
+    "test*",
+    "demo*",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "angular": "~1.2",
+    "bootstrap": "3.0.2",
+    "jquery": ">= 2.0.3",
+    "jquery.payment": "~1.0.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2",
+    "angular-scenario": "~1.2"
+  }
+}

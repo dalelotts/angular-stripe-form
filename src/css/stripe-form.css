@@ -1,0 +1,43 @@
+.stripe-form {
+    width: 400px !important;
+}
+
+.stripe-form-modal {
+    width: 460px !important;
+}
+
+.stripe-form.panel {
+    margin-bottom: 0;
+}
+
+.stripe-card-number {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attchment: scroll;
+    background-size:32px 20px;
+}
+
+.stripe-card-number.amex {
+    background-image: url(amex.png);
+}
+.stripe-card-number.diners {
+    background-image: url(diners.png);
+}
+.stripe-card-number.discover {
+    background-image: url(discover.png);
+}
+.stripe-card-number.jcb {
+    background-image: url(jcb.png);
+}
+.stripe-card-number.mastercard {
+    background-image: url(mastercard.png);
+}
+.stripe-card-number.visa {
+    background-image: url(visa.png);
+}
+
+.stripe-form input:invalid,
+.stripe-form input.ng-invalid {
+    color: #b94a48;
+    border-color: #ee5f5b;
+}
